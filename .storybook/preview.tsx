@@ -1,4 +1,6 @@
 import type { Preview } from '@storybook/react-vite'
+// @ts-expect-error - CSS import
+import './preview.css'
 
 const preview: Preview = {
   parameters: {
@@ -15,6 +17,12 @@ const preview: Preview = {
       // 'off' - skip a11y checks entirely
       test: 'todo'
     }
+    ,
+    options: {
+      storySort: {
+        order: ['Foundation', '*'],
+      },
+    },
   },
 };
 

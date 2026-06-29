@@ -1,25 +1,24 @@
 export const colors = {
-  content: {
-    dark: {
-      primary: '#000000',
-      tertiary: '#afafaf',
-    },
+  violet: {
+    50: "#EDE8FF",
+    100: "#DDD5FF",
+    200: "#BDAAFF",
+    300: "#A07DFF",
+    400: "#8647FF",
+    500: "#5500BA",
+    600: "#6800E0",
+    700: "#420093",
+    800: "#2F006E",
+    900: "#1E004A",
+    950: "#110030",
   },
-  interaction: {
-    secondary: {
-      base: '#ffffff',
-    },
+
+  neutral: {
+    50: "#F6F6F6",
+    100: "#E2E2E2",
+    500: "#747474",
+    900: "#181818",
+    white: "#FFFFFF",
+    black: "#000000",
   },
-  border: {
-    primary: '#e4e4e4',
-  },
-  greyScale: {
-    200: '#c6c6c6',
-  },
-  brand: {
-    accent: '#aa3bff',
-    accentBg: 'rgba(170, 59, 255, 0.1)',
-    accentBorder: 'rgba(170, 59, 255, 0.5)',
-    socialBg: 'rgba(244, 243, 236, 0.5)',
-  },
-} as const;
+};

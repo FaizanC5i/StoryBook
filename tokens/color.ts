@@ -1,0 +1,57 @@
+export const sdColor = {
+  color: {
+    light: {
+      fg: {
+        default: { value: '#FFFFFF' },
+        muted: { value: '#FFFFFF' },
+        subtle: { value: '#FFFFFF' }
+      },
+      bg: {
+        default: { value: '#FFFFFF' },
+        muted: { value: '#FFFFFF' },
+        subtle: { value: '#FFFFFF' }
+      },
+      accent: {
+        default: { value: '#FFFFFF' },
+        onAccent: { value: '#FFFFFF' },
+        bg: { value: '#FFFFFF' }
+      },
+      shadows: { default: { value: 'rgba(255,255,255,1)' } }
+    },
+    dark: {
+      fg: {
+        default: { value: '#FFFFFF' },
+        muted: { value: '#FFFFFF' },
+        subtle: { value: '#FFFFFF' }
+      },
+      bg: {
+        default: { value: '#FFFFFF' },
+        muted: { value: '#FFFFFF' },
+        subtle: { value: '#FFFFFF' }
+      },
+      accent: {
+        default: { value: '#FFFFFF' },
+        onAccent: { value: '#FFFFFF' },
+        bg: { value: '#FFFFFF' }
+      },
+      shadows: { default: { value: 'rgba(255,255,255,1)' } }
+    },
+    theme: {
+      button: {
+        primary: {
+          background: { value: '{color.light.accent.default}' },
+          text: { value: '{color.light.accent.onAccent}' }
+        },
+        borderRadius: { value: 0 },
+        borderWidth: { value: 0 }
+      },
+      card: {
+        background: { value: '{color.light.bg.default}' },
+        borderRadius: { value: 0 },
+        padding: { value: 0 }
+      }
+    }
+  }
+} as const;
+
+export default sdColor;

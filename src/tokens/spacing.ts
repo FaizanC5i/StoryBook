@@ -1,12 +1,9 @@
 export const spacing = {
-  xxs: '4px',
-  xs: '8px',
-  sm: '12px',
-  md: '16px',
-  lg: '20px',
-  inputY: '10px',
-  inputX: '12px',
-  icon: '20px',
-  prefixGap: '16px',
-  pillarGap: '4px',
-} as const;
+  xs: "4px",
+  sm: "8px",
+  md: "12px",
+  lg: "16px",
+  xl: "24px",
+  "2xl": "32px",
+  "3xl": "48px",
+};

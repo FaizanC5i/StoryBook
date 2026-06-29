@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:tokens": "style-dictionary build --config style-dictionary.config.js",
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
@@ -40,5 +41,7 @@
     "playwright": "^1.60.0",
     "@vitest/browser-playwright": "^4.1.9",
     "@vitest/coverage-v8": "^4.1.9"
+    ,
+    "style-dictionary": "^3.8.0"
   }
 }

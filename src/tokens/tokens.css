@@ -1,0 +1,10 @@
+:root {
+  --color-primary-500: #5500ba;
+  --color-primary-600: #6800e0;
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+
+  --radius-md: 8px;
+}

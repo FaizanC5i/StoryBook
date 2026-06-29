@@ -1,0 +1,17 @@
+<svg width="1200" height="840" viewBox="0 0 1200 840" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="840" rx="32" fill="#f8fafc" />
+  <rect x="40" y="40" width="1120" height="760" rx="24" fill="#ffffff" stroke="#e2e8f0" stroke-width="2" />
+  <text x="80" y="100" font-family="Degular, system-ui, sans-serif" font-size="54" font-weight="700" fill="#0f172a">HEADINGS</text>
+  <text x="80" y="170" font-family="Degular, system-ui, sans-serif" font-size="40" font-weight="700" fill="#0f172a">Heading 1</text>
+  <text x="80" y="220" font-family="Degular, system-ui, sans-serif" font-size="16" fill="#475569">Degular - Regular · Font size 40px · Line height 48px</text>
+  <text x="80" y="290" font-family="Degular, system-ui, sans-serif" font-size="32" font-weight="700" fill="#0f172a">Heading 2</text>
+  <text x="80" y="330" font-family="Degular, system-ui, sans-serif" font-size="16" fill="#475569">Degular - Semibold · Font size 32px · Line height 40px</text>
+  <text x="80" y="410" font-family="Degular, system-ui, sans-serif" font-size="28" font-weight="600" fill="#0f172a">Sub Heading 1</text>
+  <text x="80" y="450" font-family="Degular, system-ui, sans-serif" font-size="16" fill="#475569">Degular - Regular · Font size 28px · Line height 36px</text>
+  <text x="80" y="520" font-family="Degular, system-ui, sans-serif" font-size="20" font-weight="500" fill="#0f172a">Body 1</text>
+  <text x="80" y="560" font-family="Degular, system-ui, sans-serif" font-size="16" fill="#475569">Degular - Regular · Font size 20px · Line height 28px</text>
+  <text x="80" y="610" font-family="Degular, system-ui, sans-serif" font-size="20" fill="#0f172a">The quick brown fox jumps over the lazy dog</text>
+  <text x="80" y="690" font-family="Degular, system-ui, sans-serif" font-size="18" fill="#0f172a" font-weight="600">Tag</text>
+  <rect x="80" y="710" width="80" height="36" rx="10" fill="#e2e8f0" />
+  <text x="96" y="734" font-family="Degular, system-ui, sans-serif" font-size="14" fill="#0f172a">Token</text>
+</svg>
